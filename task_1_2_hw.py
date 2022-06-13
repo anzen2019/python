@@ -16,7 +16,6 @@ my_list = []
 for i in range(1, 1001, 2): #после отладки кода заменить 21 на 1001
     my_list.append(i**3)
 # print(my_list)
-
 #Расчет суммы чисел, сумма цифр которых делится на 7
 list_sum = 0 #счетчик
 for num in my_list:
