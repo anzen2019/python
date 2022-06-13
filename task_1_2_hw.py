@@ -29,7 +29,6 @@ for num in my_list:
     if my_sum % 7 == 0:
         list_sum += num
 print(list_sum)
-
 #Пункт b
 #Прибавить 17 каждому элементу списка
 my_list_seventeen = []
