@@ -24,7 +24,6 @@ elif sec_per_hour <= duration < sec_per_day:
     dur_h = tmp_duration // sec_per_hour #количество часов
     dur_s = duration - dur_h * sec_per_hour #сколько секунд осталось после часов
     tmp_dur_s = dur_s #записали секунды для преобразований
-
     dur_m = tmp_dur_s // sec_per_min # количество минут
     dur_s = dur_s - dur_m * sec_per_min #количество секунд
     print('Время: ', dur_h, 'час.,', dur_m, 'мин.,', dur_s, 'сек.')
