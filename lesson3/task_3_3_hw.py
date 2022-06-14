@@ -25,18 +25,3 @@ def thesaurus(name):
 
 peoples_name = ["Иван", "Мария", "Петр", "Илья", "Михаил"]
 print(thesaurus(peoples_name))
-
-""""Способ 2 - сначала создать массивы первых букв и имен
-Не работает, тк видимо zip работает для массивов равной длины
-Если массивы разной длины - обрезает до короткого
-"""
-# def thesaurus(name):
-#     first_letter = []
-#     names_list = []
-#     for i in name:
-#         names_list.append(i)
-#         if i[0] not in first_letter:
-#             first_letter.append(i[0])
-#         # if i[0] in first_letter:
-#     peoples_name_alpha = dict(zip(first_letter, names_list))
-#     return peoples_name_alpha
