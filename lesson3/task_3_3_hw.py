@@ -23,5 +23,7 @@ def thesaurus(name):
             peoples_name_alpha[i[0]] = peoples_name_alpha[i[0]] + [i]
     return peoples_name_alpha
 
-peoples_name = ["Иван", "Мария", "Петр", "Илья", "Михаил"]
+peoples_name = ["Иван", "Яна", "Мария", "Петр", "Илья", "Михаил", "Андрей"]
 print(thesaurus(peoples_name))
+thesaurus_sorted = dict(sorted(thesaurus(peoples_name).items(), key=lambda x: x[0]))
+print(thesaurus_sorted)
