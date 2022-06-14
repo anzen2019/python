@@ -13,4 +13,3 @@ for name in worker_list:
     worker_name = worker_name.lower()
     worker_name = worker_name.title()
     print('Добрый день, {}! Хорошего Вам дня.'.format(worker_name))
-    # print('Добрый день,', worker_name,'!')
