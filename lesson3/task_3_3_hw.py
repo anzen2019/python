@@ -11,3 +11,27 @@
 Подумайте: полезен ли будет вам оператор распаковки? Как поступить, если потребуется
 сортировка по ключам? Можно ли использовать словарь в этом случае
 """
+"""Способ 1 - сразу создать словарь"""
+def thesaurus(name):
+    peoples_name_alpha = {}
+    for i in name:
+        if i[0] not in peoples_name_alpha.keys():
+            peoples_name_alpha.update({i[0]: [i]})
+        else:
+            peoples_name_alpha[i[0]] = peoples_name_alpha[i[0]] + [i]
+    return peoples_name_alpha
+
+peoples_name = ["Иван", "Мария", "Петр", "Илья", "Михаил"]
+print(thesaurus(peoples_name))
+
+""""Способ 2 - сначала создать массивы первых букв и имен"""
+# def thesaurus(name):
+#     first_letter = []
+#     names_list = []
+#     for i in name:
+#         names_list.append(i)
+#         if i[0] not in first_letter:
+#             first_letter.append(i[0])
+#         # if i[0] in first_letter:
+#     peoples_name_alpha = dict(zip(first_letter, names_list))
+#     return peoples_name_alpha
