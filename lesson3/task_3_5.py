@@ -36,6 +36,7 @@ nouns = ["автомобиль", "лес", "огонь", "город", "дом"]
 adverbs = ["сегодня", "вчера", "завтра", "позавчера", "ночью"]
 adjectives = ["веселый", "яркий", "зеленый", "утопичный", "мягкий"]
 
+""""Вывод действия функции"""
 max_num_jokes = len(nouns)
 numb = int(input(f'Сколько шуток желаете? Не больше  {max_num_jokes}: '))
 get_jokes(numb, nouns, adverbs, adjectives, repeats=False)
