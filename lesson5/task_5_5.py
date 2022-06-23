@@ -44,26 +44,3 @@ def uniq_numbers(your_list):
 print(uniq_numbers(src_1))
 print(uniq_numbers(src_2))
 
-
-
-
-
-
-
-
-
-
-
-
-# set(src)
-# print(src_set)
-
-# def result(numbers):
-#     src_set = set(src)
-#     for i in numbers:
-#         result.append(numbers[i])
-
-
-
-
-# print(result(src))
