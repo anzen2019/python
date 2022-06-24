@@ -11,7 +11,6 @@ import os
 main_dir = 'my_project'
 if not os.path.exists(main_dir):
     os.mkdir(main_dir)
-
 os.chdir(main_dir) #перешли в папку my_project
 other_paths = ['settings', 'mainapp', 'adminapp', 'authapp']
 for i in range(len(other_paths)):
