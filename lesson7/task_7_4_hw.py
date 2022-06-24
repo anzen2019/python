@@ -47,7 +47,6 @@ for i in range(1, 4):
     size_prev_cur = size_prev*10
     file_size.append(size_prev_cur)
     size_prev = size_prev_cur
-
 answer = dict(zip(file_size, count_files))
 print(answer)
 

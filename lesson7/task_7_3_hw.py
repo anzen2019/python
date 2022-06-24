@@ -34,7 +34,6 @@ file_index = 'index.html'
 if not os.path.exists(file_index):
     file = open(file_index, 'w')
     file.close()
-
 #скопировалиайлы в папку authapp
 shutil.copy2('index.html', 'authapp/index.html')
 shutil.copy2('base.html', 'authapp/base.html')
